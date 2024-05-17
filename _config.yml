@@ -48,8 +48,7 @@ github_username:  ihwijae
 # about_title: About Me
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
- <mark>지속적인 성장을 위해 노력하는 신입 개발자 입니다</mark>
- **모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다**</br>**자신의 의견을 드러내는 것에 불편함이 없습니다**</br>**유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다**
+ <mark>지속적인 성장을 위해 노력하는 신입 개발자 입니다</mark></br>**모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다**</br>**자신의 의견을 드러내는 것에 불편함이 없습니다**</br>**유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다**
 
 content:
   - title: Project # Title for the section
