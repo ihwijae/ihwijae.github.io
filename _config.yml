@@ -49,27 +49,25 @@ github_username:  ihwijae
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
  <mark>지속적인 성장을 위해 노력하는 신입 개발자 입니다</mark>
- 모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다
- 자신의 의견을 드러내는 것에 불편함이 없습니다
- 유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다
+ <p>모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다</p>
+ <p>자신의 의견을 드러내는 것에 불편함이 없습니다</p>
+ <p>유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다</p>
 
 content:
   - title: Project # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top-middle
+      - layout: left
         title: WorkConGW
         link: https://github.com/jungtaeyeon/WorkConGW
         # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: https://github.com/jungtaeyeon/WorkConGW
+        sub_title: 팀(4인) 팀원
+        caption: 2024.01 ~ 2024.03
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+         중소기업의 업무를 도와주는 그룹웨어 서비스
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
 
