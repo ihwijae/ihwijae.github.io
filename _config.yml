@@ -60,7 +60,7 @@ content:
       - layout: left
         title: WorkConGW
         link: https://github.com/jungtaeyeon/WorkConGW
-        # link_text: Project Website
+        link_text: Project Website
         sub_title: 팀(4인) 팀원
         caption: 2024.01 ~ 2024.03
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
