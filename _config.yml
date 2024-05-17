@@ -70,9 +70,9 @@ content:
          중소기업의 업무를 도와주는 그룹웨어 서비스
         description: | # this will include new lines to allow paragraphs
           <mark>일정관리 기능</mark>
-          <p>일정 관리 메인 페이지에 FullCalendar 라이브러리를 사용하여 캘린더 기능 구현</p>
-          <p>일정을 조회 할 땐 사용자가 속한 부서 및 팀의 일정, 개인 일정만 조회가 가능하도록 구현</p>
-          <p>일정을 등록할 땐 부서장 이라면, 부서의 일정과 해당 부서에 속해 있는 모든 하위팀에 일정을 등록할 수 있는 권한이 있도록 구현</p>
+          * 일정 관리 메인 페이지에 FullCalendar 라이브러리를 사용하여 캘린더 기능 구현
+          * 일정을 조회 할 땐 사용자가 속한 부서 및 팀의 일정, 개인 일정만 조회가 가능하도록 구현
+          * 일정을 등록할 땐 부서장 이라면, 부서의 일정과 해당 부서에 속해 있는 모든 하위팀에 일정을 등록할 수 있는 권한이 있도록 구현
           <p>부서 일정 등록은 부서장만 가능, 일반 사원은 개인일정, 팀일정만 등록 가능하도록 구현</p>
           <p>정의 수정 및 삭제 권한은 일정을 등록한 사용자만 가능하도록 설계</p>
           <mark>시설 예약 기능</mark>
@@ -117,8 +117,8 @@ content:
       - Knitting
       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      Look at this cool image  -them
+      ![Trees](/modern-resumee/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
