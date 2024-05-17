@@ -29,11 +29,11 @@ github_username:  ihwijae
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
-# Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# Additional icon links 추가 링크
+# additional_links:
+# - title: itsgoingto.be
+  # icon: fas fa-globe
+  # url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,22 +48,23 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+ <mark>지속적인 성장을 위해 노력하는 신입 개발자 입니다</mark>
+ 모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다
+ 자신의 의견을 드러내는 것에 불편함이 없습니다
+ 유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다
 
 content:
-  - title: Projects # Title for the section
+  - title: Project # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: WorkConGW
+        link: https://github.com/jungtaeyeon/WorkConGW
         # link_text: Project Website
         additional_links:
           - title:  sproogen/modern-resume-theme
             icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
+            url: https://github.com/jungtaeyeon/WorkConGW
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
