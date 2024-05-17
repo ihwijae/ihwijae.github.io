@@ -49,9 +49,9 @@ github_username:  ihwijae
 about_profile_image: images/profile2.jpg
 about_content: | # this will include new lines to allow paragraphs
  <mark>지속적인 성장을 위해 노력하는 신입 개발자 입니다</mark>
- <p>모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다</p>
- <p>자신의 의견을 드러내는 것에 불편함이 없습니다</p>
- <p>유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다</p>
+ <p><br>모르는 것을 빠르게 질문하고 해결하는 것을 중요시 합니다</br></p>
+ <p><br>자신의 의견을 드러내는 것에 불편함이 없습니다</br></p>
+ <p><br>유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다</br></p>
 
 content:
   - title: Project # Title for the section
@@ -60,7 +60,7 @@ content:
       - layout: left
         title: WorkConGW
         link: https://github.com/jungtaeyeon/WorkConGW
-        link_text: 프로젝트 깃허브
+        link_text: <mark>프로젝트 깃허브</mark>
         sub_title: 팀(4인) 팀원
         caption: 2024.01 ~ 2024.03
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -69,8 +69,17 @@ content:
         quote: >
          중소기업의 업무를 도와주는 그룹웨어 서비스
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
+          <mark>일정관리 기능</mark>
+          <p>일정 관리 메인 페이지에 FullCalendar 라이브러리를 사용하여 캘린더 기능 구현</p>
+          <p>일정을 조회 할 땐 사용자가 속한 부서 및 팀의 일정, 개인 일정만 조회가 가능하도록 구현</p>
+          <p>일정을 등록할 땐 부서장 이라면, 부서의 일정과 해당 부서에 속해 있는 모든 하위팀에 일정을 등록할 수 있는 권한이 있도록 구현</p>
+          <p>부서 일정 등록은 부서장만 가능, 일반 사원은 개인일정, 팀일정만 등록 가능하도록 구현</p>
+          <p>정의 수정 및 삭제 권한은 일정을 등록한 사용자만 가능하도록 설계</p>
+          <mark>시설 예약 기능</mark>
+          <p>시설 예약 기능 구현 (중복된 시간의 회의실은 조회 및 예약 불가능)</p>
+          <p>시설 등록은 관리자만 가능하도록 구현, 조회,수정,삭제도 동일</p>
+          <p>위의 기능은 관리자만 확인할 수 있는 사이드바 메뉴로 보이게 설계</p>
+          <p>시설 공지, 사용자가 접수 가능한 민원 기능 구현</p>
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
