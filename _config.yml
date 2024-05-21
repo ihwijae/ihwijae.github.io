@@ -83,11 +83,11 @@ content:
     layout: list
     content:
       - layout: left
-        name: BackEnd
+        title: BackEnd
         description: | # this will include new lines to allow paragraphs
           * Java, Spring, SpringBoot, JSP, JSTL, OracleDB
       - layout: left
-        name: FrontEnd
+        title: FrontEnd
         description: | # this will include new lines to allow paragraphs
           * JavaScript, HTML5, CSS3, JQuery
 
