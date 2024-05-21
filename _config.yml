@@ -81,9 +81,15 @@ content:
 
   - title: Skill
     layout: left
-    name: BackEnd
-    description: | # this will include new lines to allow paragraphs
-     * Java, Spring, SpringBoot, JSP, JSTL, OracleDB
+    content:
+      - layout: left
+        name: BackEnd
+        description: | # this will include new lines to allow paragraphs
+          * Java, Spring, SpringBoot, JSP, JSTL, OracleDB
+      - layout: left
+        name: FrontEnd
+        description: | # this will include new lines to allow paragraphs
+          * JavaScript, HTML5, CSS3, JQuery
 
 
 #  - title: Experience # Title for the section 신입이라 경력 x
