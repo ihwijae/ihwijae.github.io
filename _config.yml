@@ -54,7 +54,7 @@ about_content: | # this will include new lines to allow paragraphs
  **유지보수 하기 편한 코드가 좋은 코드라 생각하고 이 점에 유의하며 개발하고 있습니다**<br/>
 
 content:
-  - title: Project # Title for the section
+  - title: <mark>Project</mark> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
@@ -79,7 +79,7 @@ content:
           * 위의 기능은 관리자만 확인할 수 있는 사이드바 메뉴로 보이게 설계
           * 시설 공지, 사용자가 접수 가능한 민원 기능 구현
 
-  - title: Skill
+  - title: <mark>Skill</mark>
     layout: list
     content:
       - layout: left
@@ -106,7 +106,7 @@ content:
 #        description: | # this will include new lines to allow paragraphs
 
 
-  - title: Education # Title for the section
+  - title: <mark>Education</mark> # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
