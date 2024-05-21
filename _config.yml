@@ -80,7 +80,7 @@ content:
           * 시설 공지, 사용자가 접수 가능한 민원 기능 구현
 
   - title: Skill
-    layout: left
+    layout: list
     content:
       - layout: left
         name: BackEnd
