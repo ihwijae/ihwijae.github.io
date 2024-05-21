@@ -83,7 +83,7 @@ content:
     layout: list
     content:
       - layout: left
-        name: BackEnd
+        title: BackEnd
         description: | # this will include new lines to allow paragraphs
          * Java, Groovy, NodeJS (TypeScript),
          * NestJS, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
@@ -113,10 +113,10 @@ content:
         quote: >
           클라우드 활용 Java 개발자 교육
         description: | # this will include new lines to allow paragraphs
-          -Web Back-End : Java, Spring Pramework, MyBatis
-          -Web Front-End (UI) : Html, Css, JavaScript, JQuery, JSP
-          -Data Base : Oracle DB
-          -Server : Docker, AWS
+          * Web Back-End : Java, Spring Pramework, MyBatis
+          * Web Front-End (UI) : Html, Css, JavaScript, JQuery, JSP
+          * Data Base : Oracle DB
+          * Server : Docker, AWS
 
 #  - title: A Little More About Me (외부 활동 내역 아직 x)
 #    layout: text
