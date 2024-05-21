@@ -78,6 +78,17 @@ content:
           * 시설 등록은 관리자만 가능하도록 구현, 조회,수정,삭제도 동일
           * 위의 기능은 관리자만 확인할 수 있는 사이드바 메뉴로 보이게 설계
           * 시설 공지, 사용자가 접수 가능한 민원 기능 구현
+
+  - title: Skill
+    layout: list
+    content:
+      - layout: left
+        name: BackEnd
+        description:
+          * Java, Groovy, NodeJS (TypeScript),
+          * NestJS, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
+
+
 #  - title: Experience # Title for the section 신입이라 경력 x
 #    layout: list # Type of content section (list/text)
 #    content:
@@ -96,27 +107,28 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 경기모바일과학고등학교
-        caption: 2013 - 2016
-        sub_title: 모바일컨텐츠과
+        title: 구디아카데미
+        caption: 2023.09 ~ 2024.03
+        sub_title: https://www.gdu.co.kr/main/main.html
         quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+          클라우드 활용 Java 개발자 교육
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+          -Web Back-End : Java, Spring Pramework, MyBatis
+          -Web Front-End (UI) : Html, Css, JavaScript, JQuery, JSP
+          -Data Base : Oracle DB
+          -Server : Docker, AWS
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  -them
-      ![Trees](/modern-resumee/images/landscape-trees.jpg "Trees")
+#  - title: A Little More About Me (외부 활동 내역 아직 x)
+#    layout: text
+#    content: | # this will include new lines to allow paragraphs
+#      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+#      - Rock climbing
+#      - Gaming
+#      - Knitting
+#      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#      Look at this cool image  -them
+#      ![Trees](/modern-resumee/images/landscape-trees.jpg "Trees")
 
 # Footer
 footer_show_references: true
