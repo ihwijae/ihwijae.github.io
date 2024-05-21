@@ -59,8 +59,9 @@ content:
     content:
       - layout: left
         title: WorkConGW
-        link: https://github.com/jungtaeyeon/WorkConGW
+#        link: https://github.com/jungtaeyeon/WorkConGW
 #        link_text: <mark>프로젝트 깃허브</mark>
+        github_username: https://github.com/jungtaeyeon/WorkConGW
         sub_title: 팀(4인) 팀원
         caption: 2024.01 ~ 2024.03
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
@@ -113,7 +114,7 @@ content:
         title: 구디아카데미
         caption: 2023.09 ~ 2024.03
         link: https://www.gdu.co.kr/main/main.html
-        quote: >
+        quote:
           클라우드 활용 Java 개발자 교육
         description: | # this will include new lines to allow paragraphs
           * Web Back-End : Java, Spring Pramework, MyBatis
