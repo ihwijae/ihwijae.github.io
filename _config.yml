@@ -80,13 +80,10 @@ content:
           * 시설 공지, 사용자가 접수 가능한 민원 기능 구현
 
   - title: Skill
-    layout: list
-    content:
-      - layout: left
-        title: BackEnd
-        description: | # this will include new lines to allow paragraphs
-         * Java, Groovy, NodeJS (TypeScript),
-         * NestJS, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
+    layout: left
+    name: BackEnd
+    description: | # this will include new lines to allow paragraphs
+     * Java, Spring, SpringBoot, JSP, JSTL, OracleDB
 
 
 #  - title: Experience # Title for the section 신입이라 경력 x
@@ -109,7 +106,7 @@ content:
       - layout: left
         title: 구디아카데미
         caption: 2023.09 ~ 2024.03
-        sub_title: https://www.gdu.co.kr/main/main.html
+        link: https://www.gdu.co.kr/main/main.html
         quote: >
           클라우드 활용 Java 개발자 교육
         description: | # this will include new lines to allow paragraphs
