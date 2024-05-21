@@ -84,9 +84,9 @@ content:
     content:
       - layout: left
         name: BackEnd
-        description:
-          * Java, Groovy, NodeJS (TypeScript),
-          * NestJS, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
+        description: | # this will include new lines to allow paragraphs
+         * Java, Groovy, NodeJS (TypeScript),
+         * NestJS, Spring Boot, Spring MVC, Spring Batch, Spring Security, Spring Data JPA/Redis, Spring Cloud AWS
 
 
 #  - title: Experience # Title for the section 신입이라 경력 x
