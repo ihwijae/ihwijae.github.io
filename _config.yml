@@ -87,6 +87,33 @@ content:
           * 시설 등록은 관리자만 가능하도록 구현, 조회,수정,삭제도 동일
           * 위의 기능은 관리자만 확인할 수 있는 사이드바 메뉴로 보이게 설계
           * 시설 공지, 사용자가 접수 가능한 민원 기능 구현
+          
+
+        content:
+      - layout: left
+        title: WorkConGW-Release
+        link: https://www.workcongw.store/
+        #        link_text: <mark>프로젝트 깃허브</mark>
+        #        additional_links: 깃허브 아이콘
+        #          - title: Github page for project (eg. sproogen/modern-resume-theme)
+        #            icon: fab fa-github
+        #            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
+        sub_title: 1인 프로젝트
+        caption: 2024.07 ~ 2024.08
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+        #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          기존 4인프로젝트를 Docker 컨테이너 기술을 활용해 배포
+        description: | # this will include new lines to allow paragraphs
+          * AWS EC2 활용
+          * Docker를 이용하여 AWS EC2 환경에 배포
+          * Docker-compose 를 활용하여 여러개의 컨테이너 관리
+          * 기존에 고려하지 않던 Web Server를 백엔드 서버 앞단에 구현하여 Reverse proxy 사용
+          * SSL 인증서를 발급하여 HTTPS 프로토콜 구현
+          * 도메인을 구입하여 DNS 사용
+
+  
 
   - title: <mark>Skill</mark>
     layout: list
